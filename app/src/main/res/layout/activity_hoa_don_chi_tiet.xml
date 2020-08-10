@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".Hoa_don_chi_tiet">
+
+    <EditText
+        android:id="@+id/edMahoadon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Hóa Đơn"
+       />
+
+    <EditText
+        android:id="@+id/edMasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Sách"
+         />
+
+    <EditText
+        android:id="@+id/edSoluongmua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Số Lương"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <Button
+        android:onClick="AddHoadonchitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Thêm"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="Thanhtoanhoadon"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanh Toán"
+        tools:ignore="OnClick" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/tvThanhtien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Thành Tiền" />
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lvThongke">
+</ListView>
+
+</LinearLayout>

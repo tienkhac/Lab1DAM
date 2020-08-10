@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edUserName" type="id" />
+    <item name="edPassword" type="id" />
+    <item name="btn_dangnhap" type="id" />
+    <item name="btn_dangky" type="id" />
+    <item name="btn_doimatkhau" type="id" />
+    <item name="btn_exit" type="id" />
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab1dam">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bookicon"
+        android:label="Quản Lý Sách"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".List_theloai_Activity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Nguoi_dung_detal" />
+        <activity android:name=".List_hoa_don_chi_tiet_by_id" />
+        <activity android:name=".list_hoa_don" />
+        <activity android:name=".Hoa_don_chi_tiet" />
+        <activity android:name=".List_book" />
+        <activity android:name=".HoadonActivity" />
+        <activity android:name=".Luot_sach_ban_chay" />
+        <activity android:name=".ThongkeActivity" />
+        <activity android:name=".List_nguoidung" />
+        <activity android:name=".SachActivity" />
+        <activity android:name=".TheLoaiActivity" />
+        <activity android:name=".NguoidungActivity" />
+        <activity android:name=".SpleshAcitivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".doiPasssword" />
+        <activity android:name=".MainActivity" >
+        </activity>
+    </application>
+
+</manifest>
